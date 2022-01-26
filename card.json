@@ -1,0 +1,124 @@
+{
+    "flipkart_axis_bank_credit_card": {
+        "name": "Flipkart Axis Bank Credit Card",
+        "dining": {
+            "type": "percent",
+            "value": 20,
+            "minimum_buy": 1000,
+            "maximum_buy": 5000,
+            "maxmimum_offer": 1000
+        },
+        "shopping": {
+            "type": "point",
+            "multiple": 100,
+            "value": 10,
+            "minimum_buy": 1000,
+            "maximum_buy": 5000,
+            "maxmimum_offer": 1000
+        },
+        "online": {
+            "type": "point",
+            "multiple": 100,
+            "value": 10,
+            "minimum_buy": 1000,
+            "maximum_buy": 5000,
+            "maxmimum_offer": 1000
+        },
+        "travel": {
+            "flight": {
+                "type": "point",
+                "multiple": 100,
+                "value": 10,
+                "minimum_buy": 1000,
+                "maximum_buy": 5000,
+                "maxmimum_offer": 1000
+            },
+            "train": {
+                "type": "point",
+                "multiple": 100,
+                "value": 10,
+                "minimum_buy": 1000,
+                "maximum_buy": 5000,
+                "maxmimum_offer": 1000
+            }
+        },
+        "fuel": {
+            "type": "point",
+            "multiple": 150,
+            "value": 20,
+            "maximum_offer": 750
+        },
+        "fuel_surcharge_waiver": {
+            "type": "percent",
+            "value": 1,
+            "minimum": 400,
+            "maximum": 4000
+        },
+        "cashback": {
+            "flipkart": {
+                "type": "percent",
+                "value": 5
+            },
+            "myntra": {
+                "type": "percent",
+                "value": 5
+            },
+            "prefered_merchant": {
+                "type": "percent",
+                "value": 4
+            }
+        },
+        "milestone": {
+            "yearly": {
+                "spend": 100000,
+                "format": "point",
+                "amount": 5000
+            },
+            "quarterly": {
+                "spend": 100000,
+                "format": "cashback",
+                "amount": 1000
+            },
+            "monthly": {
+                "spend": 1500,
+                "number": 4,
+                "format": "coupon",
+                "amount": 2000
+            }
+        },
+        "multiplier": {
+            "amazon": 5,
+            "flipkart": 3,
+            "coupon": 5,
+            "flight": 2,
+            "train": 1.5,
+            "nike": 4
+        },
+        "reward_points": {
+            "convertion_ratio": 1,
+            "genaral_earning": {
+                "type": "percent",
+                "value": 1.5
+            }
+        },
+        "airport_lounge_access": {
+            "domestic": {
+                "available": true,
+                "num_of_visit_per_year": 4,
+                "bar_access": true
+            },
+            "international": {
+                "available": false
+            }
+        },
+        "welcome_benefits": {
+            "type": "flat_deduction [points, coupons, membership]",
+            "max_value": 1000
+        },
+        "fee_waiver": {
+            "available": true,
+            "type": "waiver | reverse",
+            "spend_target": 200000
+        }
+    }
+}
